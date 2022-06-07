@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 930px;
+    }
+    .hero_hollow {
+        color: white;
+        background-color: #00A0c1;
+    }
+    .hero_card {
+        padding: 22px 0 23px 25px;
+    }
+    .hero_sm-title {
+        font-size: 22px;
+    }
+}
