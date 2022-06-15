@@ -550,7 +550,9 @@ button {
 }
 /* CONTACT  SECTION*/
 /* FOOTER SECTION */
-.footer {}
+.footer {
+    
+}
 .footer_in {
     font-weight: 700;
     font-size: 24px;
@@ -604,10 +606,32 @@ button {
     color: #FFFFFF;
     margin-bottom: 20px;
 }
+.footer_flex{
+    display: flex;
+}
+.footer_link svg {
+    margin-right: 10px;
+}
 .social_icons {
-    height: 74px;
+    padding: 25px 0;
     background: #FAFAFA;
 }
 
-
+.footer_icon {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 24px;
+}
+.footer_icon .fa-facebook-square {
+    color: #335BF5;
+}
+.footer_icon .fa-instagram-square {
+    color: #E61F5A;
+}
+.footer_icon .fa-twitter-square {
+    color: #21A6DF;
+}
+.footer_icon .fa-youtube-square {
+    color: #E42F08;
+}
 /* FOOTER SECTION */
